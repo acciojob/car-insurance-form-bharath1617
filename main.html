@@ -22,15 +22,15 @@
 		</div>
 	<div>
 	<label for="gender">Gender*</label>
-	<input type="radio" required id="gender"> Male
-	<input type="radio" required id="gender"> Female
+	<input type="radio" required id="gender" name="gender">Male
+	<input type="radio" required id="gender" name="gender">Female
 		</div>
 	<div>
 	<label for="cars">Car Brands</label>
 		<select required id="cars">
-			<option>BMW</option>
-		    <option>Audi</option>
-		   <option>Mercedez</option>
+			<option value="bmw">BMW</option>
+		    <option value="audi">Audi</option>
+		   <option value="mercedez">Mercedez</option>
 		</select>
 	</div>
 	<div>
@@ -45,7 +45,7 @@
 		<label for="password">Password*</label>
 		<input type="password" required id="password">
 	</div>
-	<button>submit</button>
+	<button type="submit">submit</button>
 	</form>
 </body>
 
