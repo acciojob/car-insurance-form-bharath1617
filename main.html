@@ -14,32 +14,36 @@
 	<h1>Car insurance registration form</h1>
 	<div>
 	<label for="name">Name8</label>
-	<input type="text" id="#name">
+	<input type="text" required id="#name">
 		</div>
 	<div>
 	<label for="email">Email*</label>
-	<input type="email" id="#email">
+	<input type="email" required id="#email">
 		</div>
 	<div>
 	<label for="gender">Gender*</label>
-	<input type="radio" id="gender"> Male
-	<input type="radio" id="gender"> Female
+	<input type="radio" required id="gender"> Male
+	<input type="radio" required id="gender"> Female
 		</div>
 	<div>
 	<label for="cars">Car Brands</label>
-		<select id="#cars">
+		<select required id="#cars">
 			<option>BMW</option>
 		    <option>Audi</option>
 		   <option>Mercedez</option>
 		</select>
 	</div>
 	<div>
-		<label for="age">Car Age*</label>
-	    <input type="number" id="age">
+		<label for="#dop">Date of Purchase(dop)*</label>
+		<input type="date" required id="#dop">
+	</div>
+	<div>
+		<label for="#carage">Car Age*</label>
+	    <input type="number" required id="#carage">
 	</div>
 	<div>
 		<label for="password">Password*</label>
-		<input type="password" id="password">
+		<input type="password" required id="password">
 	</div>
 	<button>submit</button>
 	</form>
